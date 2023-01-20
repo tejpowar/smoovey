@@ -52,3 +52,9 @@
   max-width: none;
   line-height: var(--line-height-loose);
 }
+
+.smoovey-logo {
+  margin-left: 149px;
+  width: 159px;
+  height: 30px;
+}
