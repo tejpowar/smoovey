@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/styles.css';
 
 const links = [
   {
