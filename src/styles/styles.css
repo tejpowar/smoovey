@@ -132,10 +132,45 @@
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 0px 5px #00000029;
     opacity: 1;
+    height: 100px;
 }
 
-.logo {
-    left: 280px;
+.smoovey-logo {
+    margin-left: 149px;
     width: 159px;
     height: 30px;
 }
+
+.navBarHeading {
+    font: var(--unnamed-font-style-normal) normal medium var(--unnamed-font-size-16)/24px var(--unnamed-font-family-sf-pro);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #1A1818 !important;
+    opacity: 1;
+}
+
+.navButtonFilled {
+    background: var(--unnamed-color-f82ffd) 0% 0% no-repeat padding-box;
+    border: 2px solid var(--unnamed-color-f82ffd);
+    background: #F82FFD 0% 0% no-repeat padding-box;
+    border: 2px solid #F82FFD;
+    border-radius: 29px;
+    opacity: 1;
+    width: 87px;
+    text-align: center;
+}
+
+/*.navButtonClear {*/
+/*    border: 2px solid var(--unnamed-color-060f3a);*/
+/*    border: 2px solid #060F3A;*/
+/*    border-radius: 29px;*/
+/*    opacity: 1;*/
+/*    width: 87px;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.navbarLayer {*/
+/*    margin-right: var(--unnamed-font-size-95-37000274658203);*/
+/*}*/

@@ -33,7 +33,7 @@ const Layout = ({ children }) => {
                    integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
                    crossOrigin="anonymous" />
        </Helmet>
-      <Navbar siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <Navbar />
       <div
         style={{
           margin: `0 auto`,

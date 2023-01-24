@@ -12,7 +12,7 @@ const ExactNavLink = props => (
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light header">
+        <nav className="navbar navbar-expand-lg navbar-light">
             <div className="d-flex flex-grow-1">
                 <span className="w-100 d-lg-none d-block">
                 </span>
