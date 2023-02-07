@@ -15,13 +15,11 @@ const Navbar = () => {
         <div className="container header">
             <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="d-flex flex-grow-1">
-                    <span className="w-100 d-lg-none d-block">
-                    </span>
                     <a className="smoovey-logo" href="/">
-                        <img src="https://smoovey-assets.s3.eu-west-1.amazonaws.com/Assets/Logos/Logo+1.svg" />
+                        <img className="smoovey-image" src="https://smoovey-assets.s3.eu-west-1.amazonaws.com/Assets/Logos/Logo+1.svg" />
                     </a>
                     <div className="w-100 text-right">
-                        <button className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#smoovey-navbar">
+                        <button className="navbar-toggler toggle" data-bs-toggle="collapse" data-bs-target="#smoovey-navbar">
                             <span className="navbar-toggler-icon"></span>
                         </button>
                     </div>
