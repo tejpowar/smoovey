@@ -172,6 +172,23 @@
     text-align: center;
 }
 
+.messageArea {
+    top: 134px;
+    left: 140px;
+    width: 460px;
+    height: 298px;
+}
+
+.messageHeading {
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+
+}
+
 @media (max-width: 768px) {
     .toggle {
         float: right;
