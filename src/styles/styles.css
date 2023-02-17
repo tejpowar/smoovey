@@ -173,20 +173,32 @@
 }
 
 .messageArea {
+    margin-top: 40px;
     top: 134px;
     left: 140px;
     width: 460px;
     height: 298px;
 }
 
-.messageHeading {
+.messageBoldHeading {
+    font: var(--unnamed-font-style-normal) normal bold 95.37px/80px Dongle;
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-000000);
     text-align: left;
-    letter-spacing: 0px;
-    color: #000000;
-    opacity: 1;
+}
 
+.messageLightHeading {
+    font: var(--unnamed-font-style-normal) normal normal 95.37px/80px Dongle;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+}
+
+.content {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-25) var(--unnamed-font-family-sf-pro);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
 }
 
 @media (max-width: 768px) {
