@@ -199,14 +199,12 @@
     font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-25) var(--unnamed-font-family-sf-pro);
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-000000);
-    text-align: left;
+    text-align: justify;
 }
 
 .buttonLong {
     background: var(--unnamed-color-f82ffd) 0% 0% no-repeat padding-box;
     border: 2px solid var(--unnamed-color-f82ffd);
-    background: #F82FFD 0% 0% no-repeat padding-box;
-    border: 2px solid #F82FFD;
     border-radius: 29px;
     opacity: 1;
     width: 150px;
@@ -240,6 +238,24 @@
 @media (max-width: 768px) {
     .toggle {
         float: right;
+    }
+
+    .messageBoldHeading {
+        font: var(--unnamed-font-style-normal) normal bold var(--unnamed-font-size-61)/40px Dongle;
+    }
+
+    .messageLightHeading {
+        font: var(--unnamed-font-style-normal) normal normal var(--unnamed-font-size-61)/40px Dongle;
+    }
+
+    .contentBody {
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-17-5) var(--unnamed-font-family-sf-pro);
+        width: 300px;
+    }
+
+    .buttonLong {
+        width: 129px;
+        height: 48px;
     }
 }
 
