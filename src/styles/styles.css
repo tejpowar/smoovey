@@ -215,16 +215,32 @@
 }
 
 .waveShape {
-    margin-top: -136px;
+    margin-top: -156px !important;
     z-index: 1;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 .blueBackground {
     margin-top: -72px;
     background: var(--unnamed-color-060f3a) 0% 0% no-repeat padding-box;
     opacity: 1;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.customerComment {
+    font: var(--unnamed-font-style-normal) normal normal 48.8px/45px Dongle;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+}
+
+.customerName {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-25) var(--unnamed-font-family-sf-pro);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
 }
 
 @media (max-width: 768px) {
