@@ -9,9 +9,12 @@
     --unnamed-color-060f3a: #060F3A;
 
     /* Font/text values */
-    --unnamed-font-family-sf-pro: SF Pro;
+    --unnamed-font-family-sf-pro: 'Poppins', sans-serif;
     --unnamed-font-style-normal: normal;
     --unnamed-font-weight-300: 300px;
+    --unnamed-font-weight-100: 100;
+    --unnamed-font-weight-200: 200;
+    --unnamed-font-weight-200: 200;
     --unnamed-font-size-14: 14px;
     --unnamed-font-size-16: 16px;
     --unnamed-font-size-20: 20px;
@@ -108,6 +111,50 @@
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-000000);
 }
+
+/*.icons {*/
+/*    margin-top: 100px;*/
+/*    margin-left: 30px;*/
+/*}*/
+
+
+.desktop-h5 {
+    font-family: var(--unnamed-font-family-sf-pro);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 39px;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    margin-top: 100px;
+}
+
+.desktop-p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: var(--unnamed-font-weight-200);
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.desktop-heading {
+    font-family: var(--unnamed-font-family-sf-pro);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 31px;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    /*margin-left: 30px;*/
+}
+
+.columnText {
+    padding: 140px;
+}
+
 .large-body {
     font-family: var(--unnamed-font-family-sf-pro);
     font-style: var(--unnamed-font-style-normal);
@@ -129,7 +176,6 @@
 
 .header {
     background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
     margin-top: 40px;
 }
@@ -139,7 +185,6 @@
     letter-spacing: var(--unnamed-character-spacing-0);
     text-align: left;
     font-size: 16px;
-    letter-spacing: 0px;
     color: #1A1818 !important;
     opacity: 1;
 }
@@ -147,8 +192,6 @@
 .navButtonFilled {
     background: var(--unnamed-color-f82ffd) 0% 0% no-repeat padding-box;
     border: 2px solid var(--unnamed-color-f82ffd);
-    background: #F82FFD 0% 0% no-repeat padding-box;
-    border: 2px solid #F82FFD;
     border-radius: 29px;
     opacity: 1;
     width: 87px;
@@ -165,7 +208,6 @@
 
 .navButtonClear {
     border: 2px solid var(--unnamed-color-060f3a);
-    border: 2px solid #060F3A;
     border-radius: 29px;
     opacity: 1;
     width: 87px;
@@ -176,7 +218,6 @@
     margin-top: 40px;
     top: 134px;
     left: 140px;
-    width: 460px;
     height: 298px;
 }
 
@@ -205,7 +246,7 @@
     text-align: justify;
 }
 
-.buttonLong {
+.buttonSmall {
     background: var(--unnamed-color-f82ffd) 0% 0% no-repeat padding-box;
     border: 2px solid var(--unnamed-color-f82ffd);
     border-radius: 29px;
@@ -214,11 +255,24 @@
     height: 55px;
 }
 
+.buttonLong {
+    background: var(--unnamed-color-f82ffd) 0% 0% no-repeat padding-box;
+    border: 2px solid var(--unnamed-color-f82ffd);
+    border-radius: 29px;
+    opacity: 1;
+    width: 253px;
+    height: 55px;
+}
+
 .waveShape {
     margin-top: -156px !important;
-    z-index: 1;
     padding-left: 0 !important;
     padding-right: 0 !important;
+    z-index: 0;
+    /*background-color: #808;*/
+    /*background-image: url('/src/images/illustrations/desktop_wave.svg');*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
 }
 
 .blueBackground {
@@ -229,11 +283,35 @@
     padding-right: 0 !important;
 }
 
+.rectangle {
+    margin-top: 100px;
+    height: 248px;
+    width: 100%;
+    background-color: #060F3A;
+}
+
 .customerComment {
-    font: var(--unnamed-font-style-normal) normal normal 48.8px/45px Dongle;
+    font: var(--unnamed-font-style-normal) normal normal 48.8px/45px Poppins;
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-ffffff);
     text-align: center;
+}
+
+.sellingPoint {
+    font-family: var(--unnamed-font-family-sf-pro);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+}
+
+.generalText {
+    font: var(--unnamed-font-style-normal) normal normal 39.06px/35px Poppins;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
 }
 
 .customerName {
@@ -241,8 +319,20 @@
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-ffffff);
     text-align: center;
+    z-index:1;
 }
 
+.textTest {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.hr {
+    border: 2px solid #EC9BEE;
+    opacity: 1;
+    margin-top: 150px;
+}
 @media (max-width: 768px) {
     .toggle {
         float: right;
