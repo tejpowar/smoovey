@@ -40,10 +40,10 @@ const IndexPage = () => (
                             </g>
                         </g>
                     </g>
-                    <text x="350" y="400" fill="white">
+                    <text x="250" y="400" fill="white">
                         <tspan className="customerComment">Using Smoovey has made life so much easier. </tspan>
-                        <tspan y="450" x="362" className="customerComment">I can focus on X instead of Y, it's amazing."</tspan>
-                        <tspan y={500} x={600} className="customerName">Joe Bloggs</tspan>
+                        <tspan y="450" x="300" className="customerComment">I can focus on X instead of Y, it's amazing."</tspan>
+                        <tspan y={500} x={650} className="customerName">Joe Bloggs</tspan>
                     </text>
                 </svg>
             </div>
@@ -136,9 +136,9 @@ const IndexPage = () => (
                         <rect width="100%" height="100%" fill="#060F3A" />
                         <text x="140" y="100" fill="white">
                             <tspan dy="1.2em" x="50" className="sellingPoint">Join landlords, letting agents, and commercial property</tspan>
-                            <tspan dy="1.2em" x="50" dx="1em" className="sellingPoint">owners across the UK who use Smoovey to stay compliant.</tspan>
+                            <tspan dy="1.2em" x="50" className="sellingPoint">owners across the UK who use Smoovey to stay compliant.</tspan>
                         </text>
-                        <foreignObject x="850" y="100" width="253px" height="160">
+                        <foreignObject x="850" y="110" width="253px" height="160">
                             <div xmlns="http://www.w3.org/1999/xhtml">
                                 <button type="button" className="buttonLong">Try Smoovey in 2 minutes<span className="arrow">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13.646" viewBox="0 0 14 13.646">
