@@ -347,9 +347,7 @@
 
 /* Custom style */
 .accordion-button {
-    box-shadow: none;
-    border-color: #EC9BEE;
-    border-width: thick;
+    box-shadow: inset 0 -1px 0 #EC9BEE;
 }
 
 .accordion-button::after {
@@ -366,10 +364,6 @@
     box-shadow: inset 0 -1px 0 #EC9BEE;
     color: var(--unnamed-color-000000);
 }
-
-/*.accordion-button:focus {*/
-/*    border-color: #8eb814;*/
-/*}*/
 
 .accordion-item {
     border: none !important;

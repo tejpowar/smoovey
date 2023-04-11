@@ -193,7 +193,7 @@ const IndexPage = () => (
                     </div>
                     <div className="accordion-item">
                         <h2 className="accordion-header" id="panelsStayOpen-headingThree">
-                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            <button className="accordion-button collapsed desktop-heading" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
                                     aria-controls="panelsStayOpen-collapseThree">
                                 Which certificates can Smoovey help me with?
@@ -201,18 +201,34 @@ const IndexPage = () => (
                         </h2>
                         <div id="panelsStayOpen-collapseThree" className="accordion-collapse collapse"
                              aria-labelledby="panelsStayOpen-headingThree">
-                            <div className="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
-                                the collapse plugin adds the appropriate classes that we use to style each element.
-                                These classes control the overall appearance, as well as the showing and hiding via CSS
-                                transitions. You can modify any of this with custom CSS or overriding our default
-                                variables. It's also worth noting that just about any HTML can go within
-                                the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <div className="accordion-body accordion-text">
+                                <ul>
+                                    <li>Gas Safety</li>
+                                    <li>Energy Performance Certificate (EPC)</li>
+                                    <li>Electrical Safety Certificate</li>
+                                    <li>Deposit Protection</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="accordion-item">
+                        <h2 className="accordion-header" id="panelsStayOpen-headingFour">
+                            <button className="accordion-button collapsed desktop-heading" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseFour">
+                                Will you be adding any more features?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFour" className="accordion-collapse collapse"
+                             aria-labelledby="panelsStayOpen-headingFour">
+                            <div className="accordion-body accordion-text">
+                                <p>100%. Certificate reminders are just the start.</p>
+                                <p>Soon, Smoovey will liaise between tenants and service providers for you – no more chasing tradespeople. No more booking appointments.</p>
+                                <p>That’s the entire certificate management process streamlined and smoove.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
