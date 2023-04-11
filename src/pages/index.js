@@ -156,36 +156,38 @@ const IndexPage = () => (
                 <div className="accordion" id="accordionPanelsStayOpenExample">
                     <div className="accordion-item">
                         <h2 className="accordion-header" id="panelsStayOpen-headingOne">
-                            <button className="accordion-button desktop-p" type="button" data-bs-toggle="collapse"
+                            <button className="accordion-button desktop-heading" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
                                     aria-controls="panelsStayOpen-collapseOne">
-                                How does it work?
+                                What exactly does Smoovey do?
                             </button>
                         </h2>
                         <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show"
                              aria-labelledby="panelsStayOpen-headingOne">
-                            <div className="accordion-body">
-                                Smoovey is the easy way for landlords to meet their legal obligations for gas, electrical safety, energy performance, and deposit protection. Our online platform simplifies certificate management by keeping all your documents (for all your properties) in one place. When you need to take action to stay compliant, we’ll let you know – so you can free up time, avoid fines, and manage your properties the Smoovey way.
+                            <div className="accordion-body accordion-text">
+                                <p>Smoovey is the easy way for landlords to meet their legal obligations for gas, electrical safety, energy performance, and deposit protection. </p>
+                                <p>Our online platform simplifies certificate management by keeping all your documents (for all your properties) in one place. </p>
+                                <p>When you need to take action to stay compliant, we’ll let you know – so you can free up time, avoid fines, and manage your properties the Smoovey way.</p>
                             </div>
                         </div>
                     </div>
                     <div className="accordion-item">
                         <h2 className="accordion-header" id="panelsStayOpen-headingTwo">
-                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            <button className="accordion-button collapsed desktop-heading" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
                                     aria-controls="panelsStayOpen-collapseTwo">
-                                Accordion Item #2
+                                How does it work?
                             </button>
                         </h2>
                         <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse"
                              aria-labelledby="panelsStayOpen-headingTwo">
                             <div className="accordion-body">
-                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                                until the collapse plugin adds the appropriate classes that we use to style each
-                                element. These classes control the overall appearance, as well as the showing and hiding
-                                via CSS transitions. You can modify any of this with custom CSS or overriding our
-                                default variables. It's also worth noting that just about any HTML can go within
-                                the <code>.accordion-body</code>, though the transition does limit overflow.
+                                <div className="accordion-body accordion-text">
+                                    <p>1. Register </p>
+                                    <p>2. Add your property</p>
+                                    <p>3. Upload your certificates and expiration dates </p>
+                                    <p>4. Relax – we’ll remind you when inspections are due</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -194,7 +196,7 @@ const IndexPage = () => (
                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
                                     aria-controls="panelsStayOpen-collapseThree">
-                                Accordion Item #3
+                                Which certificates can Smoovey help me with?
                             </button>
                         </h2>
                         <div id="panelsStayOpen-collapseThree" className="accordion-collapse collapse"
