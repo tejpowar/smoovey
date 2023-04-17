@@ -8,7 +8,7 @@ import '../styles/styles.css';
 
 const IndexPage = () => (
   <Layout>
-    <div className="container">
+    <div className="container-fluid">
         <div className="row">
             <div className="col-12 col-md-6">
                 <div className="messageArea">
@@ -20,7 +20,7 @@ const IndexPage = () => (
                 </div>
 
             </div>
-            <div className="mt-5 col-12 col-md-6">
+            <div className="col-12 col-md-6">
                 <div className="houseColumn">
                     <StaticImage src="../images/illustrations/Illustration 1.svg" alt="House image" />
                 </div>
@@ -152,7 +152,54 @@ const IndexPage = () => (
                 </div>
 
             </div>
-            <div className="row mt-5">
+            {/*<div className="row mt-5 greyBackground">*/}
+            {/*    <div className="col-12">*/}
+            {/*        <h5 className="desktop-heading mt-5 ms-4">*/}
+            {/*            More great features on the way*/}
+            {/*        </h5>*/}
+            {/*    </div>*/}
+            {/*    <div className="col-12 col-md-4 mt-5">*/}
+            {/*        <div className="mt-5 ms-4">*/}
+            {/*            <StaticImage src="../images/Icons/Online Pink.svg" alt="Online icon" />*/}
+            {/*        </div>*/}
+
+            {/*        <p className="desktop-p mt-3 ms-4">*/}
+            {/*            Upload, share, and access from anywhere – your documents are stored securely online.*/}
+            {/*        </p>*/}
+            {/*        <div className="mt-5 ms-4">*/}
+            {/*            <StaticImage src="../images/Icons/Calendar Pink.svg" alt="Calendar pink" />*/}
+            {/*        </div>*/}
+            {/*        <h5 className="desktop-heading mt-3 ms-4">*/}
+            {/*            More money in your pocket*/}
+            {/*        </h5>*/}
+            {/*        <p className="desktop-p mt-3 ms-4">*/}
+            {/*            Avoid costly management fees or worse – fines. Smoovey is and will always be free.*/}
+            {/*        </p>*/}
+            {/*    </div>*/}
+            {/*    <div className="col-12 col-md-4 mt-5">*/}
+            {/*        <div className="mt-5 ms-4">*/}
+            {/*            <StaticImage src="../images/Icons/Piggy Bank Pink.svg" alt="Face pink icon" />*/}
+            {/*        </div>*/}
+            {/*        <h5 className="desktop-heading mt-3 ms-4">*/}
+            {/*            Ditch the spreadsheets*/}
+            {/*        </h5>*/}
+            {/*        <p className="desktop-p mt-3 ms-4">*/}
+            {/*            Get automatic reminders so you never have to worry about missing a date again.*/}
+            {/*        </p>*/}
+            {/*        <div className="mt-5 ms-4">*/}
+            {/*            <StaticImage src="../images/Icons/Face Pink.svg" alt="Face pink icon" />*/}
+            {/*        </div>*/}
+            {/*        <h5 className="desktop-heading mt-3 ms-4">*/}
+            {/*            So simple. So smoove.*/}
+            {/*        </h5>*/}
+            {/*        <p className="desktop-p mt-3 ms-4">*/}
+            {/*            Easy to sign-up, nothing to download – Smoovey is built for ordinary people, not techies.*/}
+            {/*        </p>*/}
+            {/*    </div>*/}
+            {/*</div>*/}
+        </div>
+        <div className="row mt-5">
+            <div className="col-12 col-md-10">
                 <div className="accordion" id="accordionPanelsStayOpenExample">
                     <div className="accordion-item">
                         <h2 className="accordion-header" id="panelsStayOpen-headingOne">

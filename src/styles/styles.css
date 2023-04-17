@@ -216,7 +216,7 @@
 .messageArea {
     margin-top: 40px;
     top: 134px;
-    left: 140px;
+    left: 170px;
     height: 298px;
 }
 
@@ -381,7 +381,9 @@
     opacity: 1;
 }
 
-
+.greyBackground {
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+}
 
 @media (max-width: 768px) {
     .toggle {
@@ -404,6 +406,22 @@
     .buttonLong {
         width: 129px;
         height: 48px;
+    }
+
+    .houseColumn {
+        margin-top: 0;
+        width: 181px;
+        float: right;
+    }
+
+    .desktop-p {
+        font-family: var(--unnamed-font-family-sf-pro);
+        font-style: var(--unnamed-font-style-normal);
+        font-weight: var(--unnamed-font-weight-200);
+        font-size: var(--unnamed-font-size-14);
+        line-height: var(--unnamed-line-spacing-17-5);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--unnamed-color-000000);
     }
 }
 

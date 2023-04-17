@@ -39,12 +39,12 @@ const Layout = ({ children }) => {
                    crossOrigin="anonymous" />
        </Helmet>
       <Navbar />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: '1440px',
-          padding: `var(--size-gutter)`,
-        }}
+      <div className="container"
+        // style={{
+        //   margin: `0 auto`,
+        //   maxWidth: '1440px',
+        //   padding: `var(--size-gutter)`,
+        // }}
       >
         <main>{children}</main>
         {/*<footer*/}
