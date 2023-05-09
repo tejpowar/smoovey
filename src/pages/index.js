@@ -8,7 +8,7 @@ import '../styles/styles.css';
 
 const IndexPage = () => (
   <Layout>
-    <div className="container-fluid">
+    <div className="container-fluid padding-right-container">
         <div className="row">
             <div className="col-12 col-md-6">
                 <div className="messageArea">
@@ -26,38 +26,54 @@ const IndexPage = () => (
                 </div>
             </div>
             <div className="waveShape col-12">
-                <svg width="1440" height="533" viewBox="0 0 1440 533">
-                    <defs>
-                        <clipPath id="clip-path">
-                            <path id="Path_29552" data-name="Path 29552" d="M0,250.945,1440,136.279V479.424H0Z" transform="translate(11.133 -136.279)" fill="none"/>
-                        </clipPath>
-                    </defs>
-                    <g id="Group_4390" data-name="Group 4390" transform="translate(0 -502)">
-                        <rect id="Rectangle_67" data-name="Rectangle 67" width="1440" height="316" transform="translate(0 719)" fill="#060f3a"/>
-                        <g id="Group_1157" data-name="Group 1157" transform="translate(-11.133 365.721)">
+                <div className="d-md-none">
+                    <svg width="450" height="183.583" viewBox="0 0 450 183.583">
+                        <defs>
+                            <clipPath id="clip-path">
+                                <path id="Path_29552" data-name="Path 29552" d="M0,197.626l450-61.347V319.862H0Z" transform="translate(0 -136.279)" fill="none"/>
+                            </clipPath>
+                        </defs>
+                        <g id="Group_4390" data-name="Group 4390" transform="translate(0 -136.279)">
                             <g id="Mask_Group_5" data-name="Mask Group 5" transform="translate(0 136.279)" clip-path="url(#clip-path)">
-                                <path id="Path_29480" data-name="Path 29480" d="M.5,248.661s247.733,67.273,563.56,67.276c420.84,0,526.542-165.821,898.877-157.4V479.174H.5Z" transform="translate(-0.119 -136.404)" fill="#060f3a"/>
+                                <path id="Path_29480" data-name="Path 29480" d="M.5,206.609S76.689,242.6,173.82,242.6c129.427,0,161.936-88.715,276.445-84.209V329.934H.5Z" transform="translate(-0.383 -146.552)" fill="#060f3a"/>
                             </g>
                         </g>
-                    </g>
-                    <text x="250" y="400" fill="white">
-                        <tspan className="customerComment">Using Smoovey has made life so much easier. </tspan>
-                        <tspan y="450" x="300" className="customerComment">I can focus on X instead of Y, it's amazing."</tspan>
-                        <tspan y={500} x={650} className="customerName">Joe Bloggs</tspan>
-                    </text>
-                </svg>
+                    </svg>
+                </div>
+                <div className="d-none d-lg-block">
+                    <svg width="1440" height="533" viewBox="0 0 1440 533">
+                        <defs>
+                            <clipPath id="clip-path">
+                                <path id="Path_29552" data-name="Path 29552" d="M0,250.945,1440,136.279V479.424H0Z" transform="translate(11.133 -136.279)" fill="none"/>
+                            </clipPath>
+                        </defs>
+                        <g id="Group_4390" data-name="Group 4390" transform="translate(0 -502)">
+                            <rect id="Rectangle_67" data-name="Rectangle 67" width="1440" height="316" transform="translate(0 719)" fill="#060f3a"/>
+                            <g id="Group_1157" data-name="Group 1157" transform="translate(-11.133 365.721)">
+                                <g id="Mask_Group_5" data-name="Mask Group 5" transform="translate(0 136.279)" clip-path="url(#clip-path)">
+                                    <path id="Path_29480" data-name="Path 29480" d="M.5,248.661s247.733,67.273,563.56,67.276c420.84,0,526.542-165.821,898.877-157.4V479.174H.5Z" transform="translate(-0.119 -136.404)" fill="#060f3a"/>
+                                </g>
+                            </g>
+                        </g>
+                        <text x="250" y="400" fill="white">
+                            <tspan className="customerComment">Using Smoovey has made life so much easier. </tspan>
+                            <tspan y="450" x="300" className="customerComment">I can focus on X instead of Y, it's amazing."</tspan>
+                            <tspan y={500} x={650} className="customerName">Joe Bloggs</tspan>
+                        </text>
+                    </svg>
+                </div>
             </div>
         </div>
         <div className="row">
             <div className="col-12 col-md-4">
-                <h3 className="desktop-h5 ps-4">
+                <h3 className="desktop-h5 ps-4 mt-5">
                     Entirely online & always up to date.
                 </h3>
                 <p className="desktop-p mt-5 ps-4">
                     There are multiple benefits to using Smoovey.
                 </p>
             </div>
-            <div className="col-12 col-md-4 mt-5">
+            <div className="col-12 col-md-4">
                 <div className="mt-5 ms-4">
                     <StaticImage src="../images/Icons/Online Pink.svg" alt="Online icon" />
                 </div>
@@ -77,7 +93,7 @@ const IndexPage = () => (
                     Avoid costly management fees or worse – fines. Smoovey is and will always be free.
                 </p>
             </div>
-            <div className="col-12 col-md-4 mt-5">
+            <div className="col-12 col-md-4">
                 <div className="mt-5 ms-4">
                     <StaticImage src="../images/Icons/Piggy Bank Pink.svg" alt="Face pink icon" />
                 </div>
@@ -116,7 +132,7 @@ const IndexPage = () => (
                                 Juggling multiple certificates, renewal dates, tests, and inspections.
                             </p>
                         </div>
-                        <div className="col-sm-5 ps-5">
+                        <div className="col-sm-5">
                             <StaticImage src="../images/Icons/2.svg" alt="Online icon" />
                             <p className="desktop-p mt-4">
                                 Staying on top of changing regulations.
@@ -132,22 +148,44 @@ const IndexPage = () => (
             </div>
             <div className="row mt-5">
                 <div className="col-12">
-                    <svg width="100%" height="248px">
-                        <rect width="100%" height="100%" fill="#060F3A" />
-                        <text x="140" y="100" fill="white">
-                            <tspan dy="1.2em" x="50" className="sellingPoint">Join landlords, letting agents, and commercial property</tspan>
-                            <tspan dy="1.2em" x="50" className="sellingPoint">owners across the UK who use Smoovey to stay compliant.</tspan>
-                        </text>
-                        <foreignObject x="850" y="110" width="253px" height="160">
-                            <div xmlns="http://www.w3.org/1999/xhtml">
-                                <button type="button" className="buttonLong">Try Smoovey in 2 minutes<span className="arrow">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13.646" viewBox="0 0 14 13.646">
-                                      <path id="Icon_awesome-arrow-right" data-name="Icon awesome-arrow-right" d="M5.952,3.561l.694-.694a.747.747,0,0,1,1.059,0L13.78,8.939a.747.747,0,0,1,0,1.059L7.705,16.072a.747.747,0,0,1-1.059,0l-.694-.694a.751.751,0,0,1,.012-1.072L9.73,10.72H.75A.748.748,0,0,1,0,9.97v-1a.748.748,0,0,1,.75-.75H9.73L5.965,4.633A.745.745,0,0,1,5.952,3.561Z" transform="translate(0 -2.647)" fill="#060f3a"/>
-                                    </svg></span>
-                                </button>
-                            </div>
-                        </foreignObject>
-                    </svg>
+                    <div className="d-none d-lg-block">
+                        <svg width="100%" height="248px">
+                            <rect width="100%" height="100%" fill="#060F3A" />
+                            <text x="140" y="100" fill="white">
+                                <tspan dy="1.2em" x="50" className="sellingPoint">Join landlords, letting agents, and commercial property</tspan>
+                                <tspan dy="1.2em" x="50" className="sellingPoint">owners across the UK who use Smoovey to stay compliant.</tspan>
+                            </text>
+                            <foreignObject x="850" y="110" width="253px" height="160">
+                                <div xmlns="http://www.w3.org/1999/xhtml">
+                                    <button type="button" className="buttonLong">Try Smoovey in 2 minutes<span className="arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13.646" viewBox="0 0 14 13.646">
+                                          <path id="Icon_awesome-arrow-right" data-name="Icon awesome-arrow-right" d="M5.952,3.561l.694-.694a.747.747,0,0,1,1.059,0L13.78,8.939a.747.747,0,0,1,0,1.059L7.705,16.072a.747.747,0,0,1-1.059,0l-.694-.694a.751.751,0,0,1,.012-1.072L9.73,10.72H.75A.748.748,0,0,1,0,9.97v-1a.748.748,0,0,1,.75-.75H9.73L5.965,4.633A.745.745,0,0,1,5.952,3.561Z" transform="translate(0 -2.647)" fill="#060f3a"/>
+                                        </svg></span>
+                                    </button>
+                                </div>
+                            </foreignObject>
+                        </svg>
+                    </div>
+                    <div className="d-md-none">
+                        <svg width="100%" height="248px">
+                            <rect width="100%" height="100%" fill="#060F3A" />
+                            <text x="50%" y="15%" width="20%" textAnchor="middle" dominantBaseline="middle" fill="white" fontSize="24px">
+                                <tspan dy="1.2em" x="50%" className="sellingPoint">Join landlords, letting agents,</tspan>
+                                <tspan dy="1.2em" x="50%" className="sellingPoint">and commercial property</tspan>
+                                <tspan dy="1.2em" x="50%" className="sellingPoint">owners across the UK who</tspan>
+                                <tspan dy="1.2em" x="50%" className="sellingPoint">use Smoovey to stay compliant.</tspan>
+                            </text>
+                            <foreignObject x="10%" y="65%" width="90%" height="35%">
+                                <div>
+                                    <button type="button" className="buttonLong">Try Smoovey in 2 minutes<span className="arrow">
+                                        <svg width="14" height="13.646" viewBox="0 0 14 13.646">
+                                          <path id="Icon_awesome-arrow-right" data-name="Icon awesome-arrow-right" d="M5.952,3.561l.694-.694a.747.747,0,0,1,1.059,0L13.78,8.939a.747.747,0,0,1,0,1.059L7.705,16.072a.747.747,0,0,1-1.059,0l-.694-.694a.751.751,0,0,1,.012-1.072L9.73,10.72H.75A.748.748,0,0,1,0,9.97v-1a.748.748,0,0,1,.75-.75H9.73L5.965,4.633A.745.745,0,0,1,5.952,3.561Z" transform="translate(0 -2.647)" fill="#060f3a"/>
+                                        </svg></span>
+                                    </button>
+                                </div>
+                            </foreignObject>
+                        </svg>
+                    </div>
 
                 </div>
 
@@ -199,7 +237,7 @@ const IndexPage = () => (
             {/*</div>*/}
         </div>
         <div className="row mt-5">
-            <div className="col-12 col-md-10">
+            <div className="col-12">
                 <div className="accordion" id="accordionPanelsStayOpenExample">
                     <div className="accordion-item">
                         <h2 className="accordion-header" id="panelsStayOpen-headingOne">
