@@ -190,51 +190,6 @@ const IndexPage = () => (
                 </div>
 
             </div>
-            {/*<div className="row mt-5 greyBackground">*/}
-            {/*    <div className="col-12">*/}
-            {/*        <h5 className="desktop-heading mt-5 ms-4">*/}
-            {/*            More great features on the way*/}
-            {/*        </h5>*/}
-            {/*    </div>*/}
-            {/*    <div className="col-12 col-md-4 mt-5">*/}
-            {/*        <div className="mt-5 ms-4">*/}
-            {/*            <StaticImage src="../images/Icons/Online Pink.svg" alt="Online icon" />*/}
-            {/*        </div>*/}
-
-            {/*        <p className="desktop-p mt-3 ms-4">*/}
-            {/*            Upload, share, and access from anywhere – your documents are stored securely online.*/}
-            {/*        </p>*/}
-            {/*        <div className="mt-5 ms-4">*/}
-            {/*            <StaticImage src="../images/Icons/Calendar Pink.svg" alt="Calendar pink" />*/}
-            {/*        </div>*/}
-            {/*        <h5 className="desktop-heading mt-3 ms-4">*/}
-            {/*            More money in your pocket*/}
-            {/*        </h5>*/}
-            {/*        <p className="desktop-p mt-3 ms-4">*/}
-            {/*            Avoid costly management fees or worse – fines. Smoovey is and will always be free.*/}
-            {/*        </p>*/}
-            {/*    </div>*/}
-            {/*    <div className="col-12 col-md-4 mt-5">*/}
-            {/*        <div className="mt-5 ms-4">*/}
-            {/*            <StaticImage src="../images/Icons/Piggy Bank Pink.svg" alt="Face pink icon" />*/}
-            {/*        </div>*/}
-            {/*        <h5 className="desktop-heading mt-3 ms-4">*/}
-            {/*            Ditch the spreadsheets*/}
-            {/*        </h5>*/}
-            {/*        <p className="desktop-p mt-3 ms-4">*/}
-            {/*            Get automatic reminders so you never have to worry about missing a date again.*/}
-            {/*        </p>*/}
-            {/*        <div className="mt-5 ms-4">*/}
-            {/*            <StaticImage src="../images/Icons/Face Pink.svg" alt="Face pink icon" />*/}
-            {/*        </div>*/}
-            {/*        <h5 className="desktop-heading mt-3 ms-4">*/}
-            {/*            So simple. So smoove.*/}
-            {/*        </h5>*/}
-            {/*        <p className="desktop-p mt-3 ms-4">*/}
-            {/*            Easy to sign-up, nothing to download – Smoovey is built for ordinary people, not techies.*/}
-            {/*        </p>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
         </div>
         <div className="row mt-5">
             <div className="col-12">
@@ -316,6 +271,101 @@ const IndexPage = () => (
                 </div>
             </div>
         </div>
+       <div className="row mt-5 pb-5 greyBackground">
+            <div className="col-12">
+                <h5 className="desktop-h5 featureMargin mt-5">
+                    More great features on the way
+                </h5>
+            </div>
+            <div className="col-12 col-md-4 mt-5 featureMargin">
+                <div className="mt-5 ms-4">
+                    <StaticImage src="../images/Icons/House Pink.svg" alt="Online icon" />
+                </div>
+                <h5 className="desktop-heading mt-3">
+                    For Landlords
+                </h5>
+                <p className="featureHeading mt-3">
+                    Tap to renew
+                </p>
+                <p className="desktop-p mt-3">
+                    Effortlessly book gas safety, electrical installation, and energy performance inspections.
+                </p>
+                <p className="featureHeading mt-4">
+                    Certificates to your inbox
+                </p>
+                <p className="desktop-p mt-3">
+                    Get certificates direct to your inbox once work is completed.
+                </p>
+            </div>
+            <div className="col-12 col-md-4 mt-5 ms-5 featureMargin">
+                <div className="mt-5">
+                    <StaticImage src="../images/Icons/Tools Pink.svg" alt="Face pink icon" />
+                </div>
+                <h5 className="desktop-heading mt-3">
+                    For service providers
+                </h5>
+                <p className="featureHeading mt-3">
+                    Find work
+                </p>
+                <p className="desktop-p mt-3">
+                    Get automatic reminders so you never have to worry about missing a date again.
+                </p>
+                <p className="featureHeading mt-4">
+                    Share certificates
+                </p>
+                <p className="desktop-p mt-3">
+                    Upload and share certificates with a tap.
+                </p>
+            </div>
+        </div>
+        <footer className="row row-cols-5 py-5 my-5 border-top footerBackground">
+            <div className="col text-center mt-4">
+                <svg width="50" height="50" viewBox="0 0 50 50">
+                    <defs>
+                        <clipPath id="clip-path">
+                            <rect id="Rectangle_14" data-name="Rectangle 14" width="38.156" height="18.632" fill="#060f3a"/>
+                        </clipPath>
+                    </defs>
+                    <g id="Group_1164" data-name="Group 1164" transform="translate(-175 -4408)">
+                        <g id="Group_1163" data-name="Group 1163" transform="translate(175 4408)">
+                            <circle id="Ellipse_8" data-name="Ellipse 8" cx="25" cy="25" r="25" fill="#f82ffd"/>
+                            <g id="Group_1162" data-name="Group 1162" transform="translate(6.098 15.86)">
+                                <g id="Group_6" data-name="Group 6" transform="translate(0 0)" clipPath="url(#clip-path)">
+                                    <path id="Path_8" data-name="Path 8" d="M9.464,18.632A9.506,9.506,0,0,1,2.653,15.95,9.335,9.335,0,0,1,0,9.265C.007,3.822,4.885.081,9.436,0a9.357,9.357,0,0,1,5.393,1.515,1.622,1.622,0,1,1-1.785,2.709,6.144,6.144,0,0,0-3.551-.979C6.541,3.3,3.249,5.784,3.244,9.269a6.117,6.117,0,0,0,1.7,4.388,6.21,6.21,0,0,0,4.515,1.73c4.747,0,6.451-3.238,8.424-6.988C19.959,4.462,22.307,0,28.55,0h.142A9.508,9.508,0,0,1,35.5,2.681a9.338,9.338,0,0,1,2.653,6.686c-.007,5.443-4.885,9.184-9.436,9.263a9.581,9.581,0,0,1-5.074-1.314,1.622,1.622,0,1,1,1.668-2.783,6.241,6.241,0,0,0,3.349.853c2.952-.052,6.244-2.538,6.248-6.024a6.121,6.121,0,0,0-1.7-4.389,6.211,6.211,0,0,0-4.515-1.73H28.55c-4.077,0-5.617,2.533-7.791,6.666-2.045,3.886-4.59,8.722-11.3,8.722" transform="translate(0 0)" fill="#060f3a"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+
+            <div className="col">
+
+            </div>
+
+            <div className="col">
+                <p className="footerHeading">About</p>
+                <ul className="nav flex-column">
+                    <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">At a glance</a></li>
+                    <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">FAQs</a></li>
+                    <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">More features</a></li>
+                </ul>
+            </div>
+
+            <div className="col">
+                <p className="footerHeading">Get started</p>
+                <ul className="nav flex-column">
+                    <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">Log in</a></li>
+                    <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">Sign up</a></li>
+                    <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">Contact</a></li>
+                </ul>
+            </div>
+
+            <div className="col">
+                <p className="footerHeading">Follow us</p>
+
+            </div>
+        </footer>
     </div>
 
   </Layout>

@@ -11,7 +11,7 @@
     /* Font/text values */
     --unnamed-font-family-sf-pro: 'Poppins', sans-serif;
     --unnamed-font-style-normal: normal;
-    --unnamed-font-weight-300: 300px;
+    --unnamed-font-weight-300: 300;
     --unnamed-font-weight-100: 100;
     --unnamed-font-weight-200: 200;
     --unnamed-font-size-14: 14px;
@@ -131,7 +131,7 @@
 .desktop-p {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: var(--unnamed-font-weight-200);
+    font-weight: var(--unnamed-font-weight-300);
     font-size: 20px;
     line-height: 25px;
     letter-spacing: 0px;
@@ -383,6 +383,47 @@
 
 .greyBackground {
     background: #F5F5F5 0% 0% no-repeat padding-box;
+}
+
+.featureMargin {
+    margin-left: 268px;
+}
+
+.featureHeading {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.footerBackground {
+    background: #060F3A 0% 0% no-repeat padding-box;
+}
+
+.footerHeading {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.footLinks {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
 }
 
 @media (max-width: 768px) {
