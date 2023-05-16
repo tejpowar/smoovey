@@ -16,7 +16,13 @@ const IndexPage = () => (
                     <h1 className="messageLightHeading">Stay <span className="messageBoldHeading">Compliant,</span> </h1>
                     <h1 className="messageLightHeading">for good </h1>
                     <p className="desktop-p">Manage your property certificates in one place and get notified when it’s time to renew. It’s easy, secure, and completely free.</p>
-                    <button type="button" className="buttonSmall">Get Started <span className="arrow"></span> </button>
+                    <button type="button" className="buttonSmall">Get Started
+                        <span className="arrow">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13.646" viewBox="0 0 14 13.646">
+                                <path id="Icon_awesome-arrow-right" data-name="Icon awesome-arrow-right" d="M5.952,3.561l.694-.694a.747.747,0,0,1,1.059,0L13.78,8.939a.747.747,0,0,1,0,1.059L7.705,16.072a.747.747,0,0,1-1.059,0l-.694-.694a.751.751,0,0,1,.012-1.072L9.73,10.72H.75A.748.748,0,0,1,0,9.97v-1a.748.748,0,0,1,.75-.75H9.73L5.965,4.633A.745.745,0,0,1,5.952,3.561Z" transform="translate(0 -2.647)" fill="#060f3a"/>
+                             </svg>
+                        </span>
+                    </button>
                 </div>
 
             </div>
@@ -122,7 +128,7 @@ const IndexPage = () => (
                     <StaticImage src="../images/illustrations/Illustration 2.svg" alt="House image" />
             </div>
             <div className="col-12 col-md-8">
-                <h3 className="desktop-h5 ps-4">
+                <h3 className="desktop-h5 ps-4 mt-4">
                     While there’s lots to love about managing property, managing compliance isn’t always easy. Most landlords have two main challenges:
                 </h3>
                 <div className="row mt-5 ps-4">
@@ -277,8 +283,8 @@ const IndexPage = () => (
                     More great features on the way
                 </h5>
             </div>
-            <div className="col-12 col-md-4 mt-5 featureMargin">
-                <div className="mt-5 ms-4">
+            <div className="col-12 col-md-4 mt-md-5 featureMargin">
+                <div className="mt-5">
                     <StaticImage src="../images/Icons/House Pink.svg" alt="Online icon" />
                 </div>
                 <h5 className="desktop-heading mt-3">
@@ -297,7 +303,7 @@ const IndexPage = () => (
                     Get certificates direct to your inbox once work is completed.
                 </p>
             </div>
-            <div className="col-12 col-md-4 mt-5 ms-5 featureMargin">
+            <div className="col-12 col-md-4 mt-md-5 ms-md-5 featureMargin">
                 <div className="mt-5">
                     <StaticImage src="../images/Icons/Tools Pink.svg" alt="Face pink icon" />
                 </div>
@@ -319,7 +325,7 @@ const IndexPage = () => (
             </div>
         </div>
         <footer className="row row-cols-5 py-5 my-5 border-top footerBackground">
-            <div className="col text-center mt-4">
+            <div id="footerLogo" className=" footerLogo col-12 col-md-3 mt-4">
                 <svg width="50" height="50" viewBox="0 0 50 50">
                     <defs>
                         <clipPath id="clip-path">
@@ -339,11 +345,11 @@ const IndexPage = () => (
                 </svg>
             </div>
 
-            <div className="col">
+            <div className="col-12 col-md-1">
 
             </div>
 
-            <div className="col">
+            <div className="col-12 col-md-3">
                 <p className="footerHeading">About</p>
                 <ul className="nav flex-column">
                     <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">At a glance</a></li>
@@ -352,7 +358,7 @@ const IndexPage = () => (
                 </ul>
             </div>
 
-            <div className="col">
+            <div className="col-12 col-md-3">
                 <p className="footerHeading">Get started</p>
                 <ul className="nav flex-column">
                     <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">Log in</a></li>
@@ -361,9 +367,12 @@ const IndexPage = () => (
                 </ul>
             </div>
 
-            <div className="col">
+            <div className="col-12 col-md-2">
                 <p className="footerHeading">Follow us</p>
-
+                <div>
+                    <StaticImage width={10.35} src="../images/icons/Facebook Pink.svg" alt="facebook icon" />
+                    <StaticImage style={{marginLeft: "20px"}} width={19.33}  src="../images/icons/LinkedIn Pink.svg" alt="linkedin icon" />
+                </div>
             </div>
         </footer>
     </div>
