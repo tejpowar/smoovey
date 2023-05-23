@@ -10,7 +10,7 @@
 module.exports = {
   siteMetadata: {
     title: `Smoovey landlord`,
-    description: `Helping you stay compliant on your rental properties. Let us do the hardwork for you`,
+    description: `Helping you stay compliant on your rental properties. Let us do the hard work for you`,
     author: `Smoovey`,
     siteUrl: `https://www.smoovey.com`,
   },
@@ -21,8 +21,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Smoovey`,
+        short_name: `Smoovey`,
         start_url: `/`,
         background_color: `#663399`,
         // This will impact how browsers show your PWA/website

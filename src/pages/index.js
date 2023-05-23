@@ -379,7 +379,7 @@ const IndexPage = () => (
                 <p className="footerHeading">Follow us</p>
                 <div>
                     <Image width={10.35} src="https://smoovey-assets.s3.eu-west-1.amazonaws.com/images/Icons/FacebookPink.svg" alt="facebook icon" />
-                    <Image style={{marginLeft: "20px"}} width={19.33}  src="s3://smoovey-assets/images/Icons/LinkedInPink.svg" alt="linkedin icon" />
+                    <Image style={{marginLeft: "20px"}} width={19.33}  src="https://smoovey-assets.s3.eu-west-1.amazonaws.com/images/Icons/LinkedInPink.svg" alt="linkedin icon" />
                 </div>
             </div>
         </footer>
