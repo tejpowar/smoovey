@@ -128,11 +128,21 @@
     //margin-top: 100px;
 }
 
+.section-heading {
+    font-family: var(--unnamed-font-family-sf-pro);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 39px;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+}
+
 .desktop-p {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: var(--unnamed-font-weight-300);
-    font-size: 20px;
+    font-size: 16px;
     line-height: 25px;
     letter-spacing: 0px;
     color: #000000;
@@ -228,6 +238,13 @@
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-000000);
     text-align: left;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: #EC9BEE;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
 }
 
 .messageLightHeading {
@@ -431,6 +448,12 @@
 }
 
 @media (max-width: 768px) {
+
+    .section-heading {
+        font-size: 25px;
+        line-height: 31px;
+    }
+
     .desktop-h5 {
         font-size: 20px;
         line-height: 25px;
@@ -442,6 +465,9 @@
 
     .messageBoldHeading {
         font: var(--unnamed-font-style-normal) normal bold var(--unnamed-font-size-61)/40px Dongle;
+        text-decoration: underline;
+        text-decoration-color: #EC9BEE;
+        text-decoration-thickness: 1px;
     }
 
     .messageLightHeading {
@@ -514,6 +540,11 @@
     .footerLogo {
         text-align: left;
         margin-bottom: 25px;
+    }
+
+    .underline {
+        text-decoration-thickness: 3px;
+        text-underline-offset: 3px;
     }
 }
 

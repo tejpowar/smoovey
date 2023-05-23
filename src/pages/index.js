@@ -1,9 +1,9 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import { StaticImage } from "gatsby-plugin-image"
 
 import '../styles/styles.css';
+import {Image} from "react-bootstrap";
 
 
 const IndexPage = () => (
@@ -13,7 +13,7 @@ const IndexPage = () => (
             <div className="col-12 col-md-6">
                 <div className="messageArea">
                     <h1 className="messageBoldHeading">Landlords</h1>
-                    <h1 className="messageLightHeading">Stay <span className="messageBoldHeading">Compliant,</span> </h1>
+                    <h1 className="messageLightHeading">Stay <span className="messageBoldHeading underline">Compliant,</span> </h1>
                     <h1 className="messageLightHeading">for good </h1>
                     <p className="desktop-p">Manage your property certificates in one place and get notified when it’s time to renew. It’s easy, secure, and completely free.</p>
                     <button type="button" className="buttonSmall">Get Started
@@ -28,7 +28,7 @@ const IndexPage = () => (
             </div>
             <div className="col-12 col-md-6">
                 <div className="houseColumn">
-                    <StaticImage src="../images/illustrations/Illustration 1.svg" alt="House image" />
+                    <Image src="https://smoovey-assets.s3.eu-west-1.amazonaws.com/images/illustrations/Illustration1.svg" alt="House image" />
                 </div>
             </div>
             <div className="waveShape col-12">
@@ -72,16 +72,24 @@ const IndexPage = () => (
         </div>
         <div className="row">
             <div className="col-12 col-md-4">
-                <h3 className="desktop-h5 ps-4 mt-5">
+                <h3 className="section-heading ps-4 mt-5 pb-4">
                     Entirely online & always up to date.
                 </h3>
-                <p className="desktop-p mt-5 ps-4">
+                <p className="desktop-p mt-md-2 ps-4">
                     There are multiple benefits to using Smoovey.
                 </p>
             </div>
             <div className="col-12 col-md-4">
-                <div className="mt-5 ms-4">
-                    <StaticImage src="../images/Icons/Online Pink.svg" alt="Online icon" />
+                <div className="mt-md-5 ms-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+                        <g id="Group_1240" data-name="Group 1240" transform="translate(-297 -2280)">
+                            <g id="Ellipse_10" data-name="Ellipse 10" transform="translate(297 2280)" fill="#ec9bee" stroke="#060f3a" stroke-width="2">
+                                <circle cx="30" cy="30" r="30" stroke="none"/>
+                                <circle cx="30" cy="30" r="29" fill="none"/>
+                            </g>
+                            <path id="compass_calibration_FILL0_wght400_GRAD0_opsz48" d="M20.82,38a8.112,8.112,0,0,1-8.074-8.074,8.112,8.112,0,0,1,8.074-8.074,8.112,8.112,0,0,1,8.074,8.074A8.112,8.112,0,0,1,20.82,38Zm0-2.523a5.56,5.56,0,0,0,3.932-9.482,5.584,5.584,0,0,0-7.863,0,5.551,5.551,0,0,0,3.932,9.482ZM11.7,20.675,4,12.98a28.788,28.788,0,0,1,7.737-5.046,22.292,22.292,0,0,1,18.166,0A28.788,28.788,0,0,1,37.64,12.98l-7.7,7.7a15.388,15.388,0,0,0-4.184-2.733,12.6,12.6,0,0,0-9.882,0A15.388,15.388,0,0,0,11.7,20.675Zm.126-3.448a20.057,20.057,0,0,1,4.373-2.081,14.657,14.657,0,0,1,4.625-.736,16.344,16.344,0,0,1,4.668.673,14.528,14.528,0,0,1,4.331,2.145L33.9,13.148a22.883,22.883,0,0,0-6.16-3.385,19.848,19.848,0,0,0-13.813,0,23.659,23.659,0,0,0-6.181,3.385ZM20.82,14.41ZM20.82,29.926Z" transform="translate(306 2288)" fill="#060f3a"/>
+                        </g>
+                    </svg>
                 </div>
                 <h5 className="desktop-heading mt-3 ms-4">
                     Compliance without the chaos
@@ -90,7 +98,7 @@ const IndexPage = () => (
                     Upload, share, and access from anywhere – your documents are stored securely online.
                 </p>
                 <div className="mt-5 ms-4">
-                    <StaticImage src="../images/Icons/Calendar Pink.svg" alt="Calendar pink" />
+                    <Image src="https://smoovey-assets.s3.eu-west-1.amazonaws.com/images/Icons/CalendarPink.svg" alt="Calendar pink" />
                 </div>
                 <h5 className="desktop-heading mt-3 ms-4">
                     More money in your pocket
@@ -101,7 +109,7 @@ const IndexPage = () => (
             </div>
             <div className="col-12 col-md-4">
                 <div className="mt-5 ms-4">
-                    <StaticImage src="../images/Icons/Piggy Bank Pink.svg" alt="Face pink icon" />
+                    <Image src="https://smoovey-assets.s3.eu-west-1.amazonaws.com/images/Icons/PiggyBankPink.svg" alt="Face pink icon" />
                 </div>
                 <h5 className="desktop-heading mt-3 ms-4">
                     Ditch the spreadsheets
@@ -110,7 +118,7 @@ const IndexPage = () => (
                     Get automatic reminders so you never have to worry about missing a date again.
                 </p>
                 <div className="mt-5 ms-4">
-                    <StaticImage src="../images/Icons/Face Pink.svg" alt="Face pink icon" />
+                    <Image src="https://smoovey-assets.s3.eu-west-1.amazonaws.com/images/Icons/FacePink.svg" alt="Face pink icon" />
                 </div>
                 <h5 className="desktop-heading mt-3 ms-4">
                     So simple. So smoove.
@@ -125,7 +133,7 @@ const IndexPage = () => (
         </div>
         <div className="row">
             <div className="col-12 col-md-4">
-                    <StaticImage src="../images/illustrations/Illustration 2.svg" alt="House image" />
+                    <Image src="https://smoovey-assets.s3.eu-west-1.amazonaws.com/images/illustrations/Illustration2.svg" alt="House image" />
             </div>
             <div className="col-12 col-md-8">
                 <h3 className="desktop-h5 ps-4 mt-4">
@@ -133,13 +141,13 @@ const IndexPage = () => (
                 </h3>
                 <div className="row mt-5 ps-4">
                         <div className="col-sm-5">
-                            <StaticImage src="../images/Icons/1.svg" alt="Online icon" />
+                            <Image src="https://smoovey-assets.s3.eu-west-1.amazonaws.com/images/Icons/1.svg" alt="Online icon" />
                             <p className="desktop-p mt-4">
                                 Juggling multiple certificates, renewal dates, tests, and inspections.
                             </p>
                         </div>
                         <div className="col-sm-5">
-                            <StaticImage src="../images/Icons/2.svg" alt="Online icon" />
+                            <Image src="https://smoovey-assets.s3.eu-west-1.amazonaws.com/images/Icons/2.svg" alt="Online icon" />
                             <p className="desktop-p mt-4">
                                 Staying on top of changing regulations.
                             </p>
@@ -203,7 +211,7 @@ const IndexPage = () => (
                     <div className="accordion-item">
                         <h2 className="accordion-header" id="panelsStayOpen-headingOne">
                             <button className="accordion-button desktop-heading" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
                                     aria-controls="panelsStayOpen-collapseOne">
                                 What exactly does Smoovey do?
                             </button>
@@ -279,15 +287,15 @@ const IndexPage = () => (
         </div>
        <div className="row mt-5 pb-5 greyBackground">
             <div className="col-12">
-                <h5 className="desktop-h5 featureMargin mt-5">
+                <h5 className="section-heading featureMargin mt-5">
                     More great features on the way
                 </h5>
             </div>
             <div className="col-12 col-md-4 mt-md-5 featureMargin">
                 <div className="mt-5">
-                    <StaticImage src="../images/Icons/House Pink.svg" alt="Online icon" />
+                    <Image src="https://smoovey-assets.s3.eu-west-1.amazonaws.com/images/Icons/HousePink.svg" alt="Online icon" />
                 </div>
-                <h5 className="desktop-heading mt-3">
+                <h5 className="desktop-heading underline mt-3">
                     For Landlords
                 </h5>
                 <p className="featureHeading mt-3">
@@ -305,9 +313,9 @@ const IndexPage = () => (
             </div>
             <div className="col-12 col-md-4 mt-md-5 ms-md-5 featureMargin">
                 <div className="mt-5">
-                    <StaticImage src="../images/Icons/Tools Pink.svg" alt="Face pink icon" />
+                    <Image src="https://smoovey-assets.s3.eu-west-1.amazonaws.com/images/Icons/ToolsPink.svg" alt="Face pink icon" />
                 </div>
-                <h5 className="desktop-heading mt-3">
+                <h5 className="desktop-heading underline mt-3">
                     For service providers
                 </h5>
                 <p className="featureHeading mt-3">
@@ -370,8 +378,8 @@ const IndexPage = () => (
             <div className="col-12 col-md-2">
                 <p className="footerHeading">Follow us</p>
                 <div>
-                    <StaticImage width={10.35} src="../images/icons/Facebook Pink.svg" alt="facebook icon" />
-                    <StaticImage style={{marginLeft: "20px"}} width={19.33}  src="../images/icons/LinkedIn Pink.svg" alt="linkedin icon" />
+                    <Image width={10.35} src="https://smoovey-assets.s3.eu-west-1.amazonaws.com/images/Icons/FacebookPink.svg" alt="facebook icon" />
+                    <Image style={{marginLeft: "20px"}} width={19.33}  src="s3://smoovey-assets/images/Icons/LinkedInPink.svg" alt="linkedin icon" />
                 </div>
             </div>
         </footer>
@@ -385,6 +393,6 @@ const IndexPage = () => (
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
-export const Head = () => <Seo title="Home" />
+export const Head = () => <Seo title="Smoovey" />
 
 export default IndexPage
