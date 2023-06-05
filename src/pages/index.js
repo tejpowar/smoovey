@@ -8,10 +8,10 @@ import {Image} from "react-bootstrap";
 
 const IndexPage = () => (
   <Layout>
-    <div className="container-fluid padding-right-container">
+    <div className="padding-right-container">
         <div className="row">
             <div className="col-12 col-md-6">
-                <div className="messageArea">
+                <div className="messageArea padding-left-container">
                     <h1 className="messageBoldHeading">Landlords</h1>
                     <h1 className="messageLightHeading">Stay <span className="messageBoldHeading underline">Compliant,</span> </h1>
                     <h1 className="messageLightHeading">for good </h1>
@@ -33,7 +33,7 @@ const IndexPage = () => (
             </div>
             <div className="waveShape col-12">
                 <div className="d-md-none">
-                    <svg width="450" height="183.583" viewBox="0 0 450 183.583">
+                    <svg viewBox="0 0 450 183.583">
                         <defs>
                             <clipPath id="clip-path">
                                 <path id="Path_29552" data-name="Path 29552" d="M0,197.626l450-61.347V319.862H0Z" transform="translate(0 -136.279)" fill="none"/>
@@ -46,8 +46,8 @@ const IndexPage = () => (
                         </g>
                     </svg>
                 </div>
-                <div className="d-none d-lg-block">
-                    <svg width="1440" height="533" viewBox="0 0 1440 533">
+                <div className="d-none d-lg-block" >
+                    <svg preserveAspectRatio="none" viewBox="0 0 1440 533">
                         <defs>
                             <clipPath id="clip-path">
                                 <path id="Path_29552" data-name="Path 29552" d="M0,250.945,1440,136.279V479.424H0Z" transform="translate(11.133 -136.279)" fill="none"/>
@@ -64,14 +64,14 @@ const IndexPage = () => (
                         <text x="250" y="400" fill="white">
                             <tspan className="customerComment">Using Smoovey has made life so much easier. </tspan>
                             <tspan y="450" x="300" className="customerComment">I can focus on X instead of Y, it's amazing."</tspan>
-                            <tspan y={500} x={650} className="customerName">Joe Bloggs</tspan>
+                            {/*<tspan y={500} x={650} className="customerName">Joe Bloggs</tspan>*/}
                         </text>
                     </svg>
                 </div>
             </div>
         </div>
         <div className="row">
-            <div className="col-12 col-md-4">
+            <div className="col-12 col-md-4" id="at_a_glance_hyperlink">
                 <h3 className="section-heading ps-4 mt-5 pb-4">
                     Entirely online & always up to date.
                 </h3>
@@ -206,7 +206,10 @@ const IndexPage = () => (
             </div>
         </div>
         <div className="row mt-5">
-            <div className="col-12">
+            <div className="col-12" id="faqs_hyperlink">
+                <h3 className="section-heading ps-4 mt-5 pb-4">
+                    FAQs
+                </h3>
                 <div className="accordion" id="accordionPanelsStayOpenExample">
                     <div className="accordion-item">
                         <h2 className="accordion-header" id="panelsStayOpen-headingOne">
@@ -361,7 +364,7 @@ const IndexPage = () => (
                 <p className="footerHeading">About</p>
                 <ul className="nav flex-column">
                     <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">At a glance</a></li>
-                    <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">FAQs</a></li>
+                    <li className="nav-item mb-2"><a href="#faqs_hyperlink" className="nav-link p-0 text-light">FAQs</a></li>
                     <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">More features</a></li>
                 </ul>
             </div>
