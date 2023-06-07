@@ -70,8 +70,8 @@ const IndexPage = () => (
                 </div>
             </div>
         </div>
-        <div className="row">
-            <div className="col-12 col-md-4" id="at_a_glance_hyperlink">
+        <div className="row d-flex justify-content-center">
+            <div className="col-12 col-md-3" id="at_a_glance_hyperlink">
                 <h3 className="section-heading ps-4 mt-5 pb-4">
                     Entirely online & always up to date.
                 </h3>
@@ -79,7 +79,7 @@ const IndexPage = () => (
                     There are multiple benefits to using Smoovey.
                 </p>
             </div>
-            <div className="col-12 col-md-4">
+            <div className="col-12 col-md-3">
                 <div className="mt-md-5 ms-4">
                     <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
                         <g id="Group_1240" data-name="Group 1240" transform="translate(-297 -2280)">
@@ -107,7 +107,7 @@ const IndexPage = () => (
                     Avoid costly management fees or worse – fines. Smoovey is and will always be free.
                 </p>
             </div>
-            <div className="col-12 col-md-4">
+            <div className="col-12 col-md-3">
                 <div className="mt-5 ms-4">
                     <Image src="https://smoovey-assets.s3.eu-west-1.amazonaws.com/images/Icons/PiggyBankPink.svg" alt="Face pink icon" />
                 </div>
@@ -127,15 +127,15 @@ const IndexPage = () => (
                     Easy to sign-up, nothing to download – Smoovey is built for ordinary people, not techies.
                 </p>
             </div>
-            <div className="col 12">
-                <hr className="hr" />
-            </div>
         </div>
-        <div className="row">
-            <div className="col-12 col-md-4">
+        <div className="col 12">
+            <hr className="hr" />
+        </div>
+        <div className="row d-flex justify-content-center">
+            <div className="col-12 col-md-3">
                     <Image src="https://smoovey-assets.s3.eu-west-1.amazonaws.com/images/illustrations/Illustration2.svg" alt="House image" />
             </div>
-            <div className="col-12 col-md-8">
+            <div className="col-12 col-md-6">
                 <h3 className="desktop-h5 ps-4 mt-4">
                     While there’s lots to love about managing property, managing compliance isn’t always easy. Most landlords have two main challenges:
                 </h3>
@@ -166,10 +166,10 @@ const IndexPage = () => (
                         <svg width="100%" height="248px">
                             <rect width="100%" height="100%" fill="#060F3A" />
                             <text x="140" y="100" fill="white">
-                                <tspan dy="1.2em" x="50" className="sellingPoint">Join landlords, letting agents, and commercial property</tspan>
-                                <tspan dy="1.2em" x="50" className="sellingPoint">owners across the UK who use Smoovey to stay compliant.</tspan>
+                                <tspan dy="1.2em" x="300" className="sellingPoint">Join landlords, letting agents, and commercial property</tspan>
+                                <tspan dy="1.2em" x="300" className="sellingPoint">owners across the UK who use Smoovey to stay compliant.</tspan>
                             </text>
-                            <foreignObject x="850" y="110" width="253px" height="160">
+                            <foreignObject x="1250" y="110" width="253px" height="160">
                                 <div xmlns="http://www.w3.org/1999/xhtml">
                                     <button type="button" className="buttonLong">Try Smoovey in 2 minutes<span className="arrow">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13.646" viewBox="0 0 14 13.646">
@@ -205,8 +205,8 @@ const IndexPage = () => (
 
             </div>
         </div>
-        <div className="row mt-5">
-            <div className="col-12" id="faqs_hyperlink">
+        <div className="row mt-5 d-flex justify-content-center">
+            <div className="col-12 col-md-9" id="faqs_hyperlink">
                 <h3 className="section-heading ps-4 mt-5 pb-4">
                     FAQs
                 </h3>
