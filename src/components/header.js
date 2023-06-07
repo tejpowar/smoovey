@@ -17,16 +17,16 @@ const Header = () => (
                     <span className="navbar-toggler-icon"></span>
                 </button>
             </div>
-            <div className="collapse navbar-collapse flex-grow-1 text-right" id="navbarSupportedContent">
+            <div className="collapse navbar-collapse flex-grow-1 d-flex justify-content-end" id="navbarSupportedContent">
                 <ul className="navbar-nav ms-auto flex-nowrap">
                     <li className="nav-item">
                         <a href="#" className="nav-link m-2 menu-item nav-active navBarHeading">At a glance</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link m-2 menu-item navBarHeading">FAQ's</a>
+                        <a href="#faqs_hyperlink" className="nav-link m-2 menu-item navBarHeading">FAQ's</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link m-2 menu-item navButtonFilled navBarHeading">Login</a>
+                        <a href="/Login" className="nav-link m-2 menu-item navButtonFilled navBarHeading">Login</a>
                     </li>
                     <li className="nav-item">
                         <a href="#" className="nav-link m-2 menu-item navButtonClear navBarHeading">Signup</a>

@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
                    crossOrigin="anonymous" />
        </Helmet>
       <Navbar />
-      <div className="container"
+      <div className="container-fluid"
         // style={{
         //   margin: `0 auto`,
         //   maxWidth: '1440px',

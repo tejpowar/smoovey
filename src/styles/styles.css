@@ -189,6 +189,10 @@
     margin-top: 40px;
 }
 
+.padding-left-container {
+    padding-left: 180px;
+}
+
 .navBarHeading {
     font: var(--unnamed-font-style-normal) normal medium var(--unnamed-font-size-16)/24px var(--unnamed-font-family-sf-pro);
     letter-spacing: var(--unnamed-character-spacing-0);
@@ -448,6 +452,10 @@
 }
 
 @media (max-width: 768px) {
+
+    .padding-left-container {
+        padding-left: 10px;
+    }
 
     .section-heading {
         font-size: 25px;
