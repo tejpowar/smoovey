@@ -451,6 +451,10 @@
     text-align: center;
 }
 
+.widthIcon {
+    width: 60px;
+}
+
 @media (max-width: 768px) {
 
     .padding-left-container {

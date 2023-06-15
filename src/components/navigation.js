@@ -25,16 +25,16 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse flex-grow-1 text-right" id="smoovey-navbar">
                     <ul className="navbar-nav ms-auto flex-nowrap">
                         <li className="nav-item">
-                            <a href="#" className="nav-link m-2 menu-item nav-active navBarHeading">At a glance</a>
+                            <a href="#at_a_glance_hyperlink" className="nav-link m-2 menu-item nav-active navBarHeading">At a glance</a>
                         </li>
                         <li className="nav-item">
-                            <a href="#" className="nav-link m-2 menu-item navBarHeading">FAQ's</a>
+                            <a href="#faqs_hyperlink" className="nav-link m-2 menu-item navBarHeading">FAQ's</a>
                         </li>
                         <li className="nav-item">
-                            <a href="#" className="nav-link m-2 menu-item navButtonFilled navBarHeading">Login</a>
+                            <a href="https://app.smoovey.com/Login" className="nav-link m-2 menu-item navButtonFilled navBarHeading">Login</a>
                         </li>
                         <li className="nav-item">
-                            <a href="#" className="nav-link m-2 menu-item navButtonClear navBarHeading">Signup</a>
+                            <a href="https://app.smoovey.com/register" className="nav-link m-2 menu-item navButtonClear navBarHeading">Signup</a>
                         </li>
                     </ul>
                 </div>

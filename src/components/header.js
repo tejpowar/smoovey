@@ -26,10 +26,10 @@ const Header = () => (
                         <a href="#faqs_hyperlink" className="nav-link m-2 menu-item navBarHeading">FAQ's</a>
                     </li>
                     <li className="nav-item">
-                        <a href="/Login" className="nav-link m-2 menu-item navButtonFilled navBarHeading">Login</a>
+                        <Link href="https://app.smoovey.com/Login" className="nav-link m-2 menu-item navButtonFilled navBarHeading">Login</Link>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link m-2 menu-item navButtonClear navBarHeading">Signup</a>
+                        <a href="/signUp" className="nav-link m-2 menu-item navButtonClear navBarHeading">Signup</a>
                     </li>
                 </ul>
             </div>

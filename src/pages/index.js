@@ -141,13 +141,13 @@ const IndexPage = () => (
                 </h3>
                 <div className="row mt-5 ps-4">
                         <div className="col-sm-5">
-                            <Image src="https://smoovey-assets.s3.eu-west-1.amazonaws.com/images/Icons/1.svg" alt="Online icon" />
+                            <Image src="https://smoovey-assets.s3.eu-west-1.amazonaws.com/images/Icons/no1.svg" alt="Online icon" className="widthIcon" />
                             <p className="desktop-p mt-4">
                                 Juggling multiple certificates, renewal dates, tests, and inspections.
                             </p>
                         </div>
                         <div className="col-sm-5">
-                            <Image src="https://smoovey-assets.s3.eu-west-1.amazonaws.com/images/Icons/2.svg" alt="Online icon" />
+                            <Image src="https://smoovey-assets.s3.eu-west-1.amazonaws.com/images/Icons/no2.svg" alt="Online icon" className="widthIcon"/>
                             <p className="desktop-p mt-4">
                                 Staying on top of changing regulations.
                             </p>
@@ -288,7 +288,7 @@ const IndexPage = () => (
                 </div>
             </div>
         </div>
-       <div className="row mt-5 pb-5 greyBackground">
+       <div className="row mt-5 pb-5 greyBackground" id="features">
             <div className="col-12">
                 <h5 className="section-heading featureMargin mt-5">
                     More great features on the way
@@ -363,17 +363,17 @@ const IndexPage = () => (
             <div className="col-12 col-md-3">
                 <p className="footerHeading">About</p>
                 <ul className="nav flex-column">
-                    <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">At a glance</a></li>
+                    <li className="nav-item mb-2"><a href="#at_a_glance_hyperlink" className="nav-link p-0 text-light">At a glance</a></li>
                     <li className="nav-item mb-2"><a href="#faqs_hyperlink" className="nav-link p-0 text-light">FAQs</a></li>
-                    <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">More features</a></li>
+                    <li className="nav-item mb-2"><a href="#features" className="nav-link p-0 text-light">More features</a></li>
                 </ul>
             </div>
 
             <div className="col-12 col-md-3">
                 <p className="footerHeading">Get started</p>
                 <ul className="nav flex-column">
-                    <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">Log in</a></li>
-                    <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">Sign up</a></li>
+                    <li className="nav-item mb-2"><a href="https://app.smoovey.com/Login" className="nav-link p-0 text-light">Log in</a></li>
+                    <li className="nav-item mb-2"><a href="https://app.smoovey.com/signup" className="nav-link p-0 text-light">Sign up</a></li>
                     <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">Contact</a></li>
                 </ul>
             </div>
