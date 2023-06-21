@@ -34,7 +34,7 @@ const Navbar = () => {
                             <a href="https://app.smoovey.com/Login" className="nav-link m-2 menu-item navButtonFilled navBarHeading">Login</a>
                         </li>
                         <li className="nav-item">
-                            <a href="https://app.smoovey.com/register" className="nav-link m-2 menu-item navButtonClear navBarHeading">Signup</a>
+                            <a href="https://app.smoovey.com/signup" className="nav-link m-2 menu-item navButtonClear navBarHeading">Signup</a>
                         </li>
                     </ul>
                 </div>
