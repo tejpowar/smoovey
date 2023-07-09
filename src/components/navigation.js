@@ -12,7 +12,7 @@ const ExactNavLink = props => (
 
 const Navbar = () => {
     return (
-        <div className="container header">
+        <div className="container-fluid header">
             <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="d-flex flex-grow-1">
                     <button className="navbar-toggler toggle" data-bs-toggle="collapse" data-bs-target="#smoovey-navbar">
