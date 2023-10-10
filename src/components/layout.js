@@ -6,26 +6,16 @@
  */
 
 import * as React from "react"
-import { useStaticQuery, graphql } from "gatsby"
 import Helmet from 'react-helmet';
 
 import Navbar from "./navigation";
 
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
   return (
     <>
        <Helmet>
+           <link rel="preload" href="/src/styles/styles.css" as="style" />
            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
                  integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
                  crossOrigin="anonymous" />
@@ -40,23 +30,8 @@ const Layout = ({ children }) => {
        </Helmet>
       <Navbar />
       <div className="container-fluid"
-        // style={{
-        //   margin: `0 auto`,
-        //   maxWidth: '1440px',
-        //   padding: `var(--size-gutter)`,
-        // }}
       >
         <main>{children}</main>
-        {/*<footer*/}
-        {/*  style={{*/}
-        {/*    marginTop: `var(--space-5)`,*/}
-        {/*    fontSize: `var(--font-sm)`,*/}
-        {/*  }}*/}
-        {/*>*/}
-        {/*  © {new Date().getFullYear()} &middot; Built with*/}
-        {/*  {` `}*/}
-        {/*  <a href="https://www.gatsbyjs.com">Gatsby</a>*/}
-        {/*</footer>*/}
       </div>
     </>
   )

@@ -21,6 +21,9 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-preload-fonts`,
     {
+      resolve: `gatsby-plugin-styled-components`,
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Smoovey`,
