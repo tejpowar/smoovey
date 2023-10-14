@@ -235,9 +235,6 @@
     height: 298px;
 }
 
-.houseColumn {
-    margin-top: 275px;
-}
 .messageBoldHeading {
     font: normal bold 95.37px/80px Dongle;
     letter-spacing: var(--unnamed-character-spacing-0);
@@ -510,6 +507,11 @@
         width: 181px;
         float: right;
     }
+
+    .houseImageMobile {
+        float: right;
+    }
+
 
     .desktop-p {
         font-family: var(--unnamed-font-family-sf-pro);

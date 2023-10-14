@@ -42,14 +42,14 @@ const IndexPage = () => (
           </div>
         </div>
         <div className="col-12 col-md-6">
-          <div className="houseColumn">
+          <div>
             <div className="d-none d-lg-block">
               <Image
                 src="https://smoovey-assets.s3.eu-west-1.amazonaws.com/images/illustrations/Illustration1.svg"
                 alt="House image"
               />
             </div>
-            <div className="d-md-none">
+            <div className="d-md-none houseImageMobile">
               <Image
                   src="https://smoovey-assets.s3.eu-west-1.amazonaws.com/images/illustrations/House_Mobile.svg"
                   alt="House image"
