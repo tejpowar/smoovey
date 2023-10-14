@@ -1,15 +1,5 @@
 import * as React from "react"
 import PropTypes from "prop-types"
-import { Link } from "gatsby"
-
-const isActive = ({ isCurrent }) => {
-    return isCurrent ? { className: "nav-link active" } : {className: "nav-link"}
-}
-
-const ExactNavLink = props => (
-    <Link getProps={isActive} {...props} />
-)
-
 const Navbar = () => {
     return (
         <div className="container-fluid header">
@@ -19,7 +9,7 @@ const Navbar = () => {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <a className="smoovey-logo mt-2" href="/">
-                        <img className="smoovey-image" src="https://smoovey-assets.s3.eu-west-1.amazonaws.com/Assets/Logos/Logo+1.svg" />
+                        <img className="smoovey-image" src="https://smoovey-assets.s3.eu-west-1.amazonaws.com/Assets/Logos/Logo+1.svg" alt="smoovey logo"/>
                     </a>
                 </div>
                 <div className="collapse navbar-collapse flex-grow-1 text-right" id="smoovey-navbar">

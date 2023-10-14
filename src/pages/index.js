@@ -1,8 +1,8 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { Link } from "gatsby";
 
-import "../styles/styles.css"
 import { Image } from "react-bootstrap"
 
 const IndexPage = () => (
@@ -17,11 +17,13 @@ const IndexPage = () => (
               <span className="messageBoldHeading underline">Compliant,</span>{" "}
             </h1>
             <h1 className="messageLightHeading">for good </h1>
+
             <p className="desktop-p">
               Manage your property certificates in one place and get notified
               when it’s time to renew. It’s easy, secure, and completely free.
             </p>
-            <button type="button" className="buttonSmall">
+            <Link to="https://app.smoovey.com/signup">
+              <button type="button" className="buttonSmall">
               Get Started
               <span className="arrow">
                 <svg
@@ -40,14 +42,23 @@ const IndexPage = () => (
                 </svg>
               </span>
             </button>
+            </Link>
           </div>
         </div>
         <div className="col-12 col-md-6">
-          <div className="houseColumn">
-            <Image
-              src="https://smoovey-assets.s3.eu-west-1.amazonaws.com/images/illustrations/Illustration1.svg"
-              alt="House image"
-            />
+          <div>
+            <div className="d-none d-lg-block">
+              <Image
+                src="https://smoovey-assets.s3.eu-west-1.amazonaws.com/images/illustrations/Illustration1.svg"
+                alt="House image"
+              />
+            </div>
+            <div className="d-md-none houseImageMobile">
+              <Image
+                  src="https://smoovey-assets.s3.eu-west-1.amazonaws.com/images/illustrations/House_Mobile.svg"
+                  alt="House image"
+              />
+            </div>
           </div>
         </div>
         <div className="waveShape col-12">
@@ -73,7 +84,7 @@ const IndexPage = () => (
                   id="Mask_Group_5"
                   data-name="Mask Group 5"
                   transform="translate(0 136.279)"
-                  clip-path="url(#clip-path)"
+                  clipPath="url(#clip-path)"
                 >
                   <path
                     id="Path_29480"
@@ -121,7 +132,7 @@ const IndexPage = () => (
                     id="Mask_Group_5"
                     data-name="Mask Group 5"
                     transform="translate(0 136.279)"
-                    clip-path="url(#clip-path)"
+                    clipPath="url(#clip-path)"
                   >
                     <path
                       id="Path_29480"
@@ -174,7 +185,7 @@ const IndexPage = () => (
                   transform="translate(297 2280)"
                   fill="#ec9bee"
                   stroke="#060f3a"
-                  stroke-width="2"
+                  strokeWidth="2"
                 >
                   <circle cx="30" cy="30" r="30" stroke="none" />
                   <circle cx="30" cy="30" r="29" fill="none" />
@@ -298,7 +309,7 @@ const IndexPage = () => (
                 <foreignObject x="1250" y="110" width="253px" height="160">
                   <div xmlns="http://www.w3.org/1999/xhtml">
                     <button type="button" className="buttonLong">
-                      <a href="https://app.smoovey.com/signup" target="_blank" className="externalLink">
+                      <a href="https://app.smoovey.com/signup" target="_blank" className="externalLink" rel="noreferrer" >
                         Try Smoovey in 2 minutes
                       </a>
                       <span className="arrow">
@@ -660,14 +671,14 @@ const IndexPage = () => (
         <div className="col-12 col-md-2">
           <p className="footerHeading">Follow us</p>
           <div>
-            <a href="https://www.facebook.com/smooveyapp" target="_blank">
+            <a href="https://www.facebook.com/smooveyapp" target="_blank" rel="noreferrer" >
               <img
                 style={{ width: 10.35 }}
                 src="https://smoovey-assets.s3.eu-west-1.amazonaws.com/images/Icons/FacebookPink.svg"
                 alt="facebook icon"
               />
             </a>
-            <a href="https://www.linkedin.com/company/smoovey" target="_blank">
+            <a href="https://www.linkedin.com/company/smoovey" target="_blank" rel="noreferrer" >
               <img
                 style={{ marginLeft: "20px" }}
                 width={19.33}

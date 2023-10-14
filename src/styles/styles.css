@@ -235,11 +235,8 @@
     height: 298px;
 }
 
-.houseColumn {
-    margin-top: 275px;
-}
 .messageBoldHeading {
-    font: var(--unnamed-font-style-normal) normal bold 95.37px/80px Dongle;
+    font: normal bold 95.37px/80px Dongle;
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-000000);
     text-align: left;
@@ -274,6 +271,8 @@
     opacity: 1;
     width: 150px;
     height: 55px;
+    z-index: 1;
+    position: relative;
 }
 
 .buttonLong {
@@ -510,6 +509,11 @@
         width: 181px;
         float: right;
     }
+
+    .houseImageMobile {
+        float: right;
+    }
+
 
     .desktop-p {
         font-family: var(--unnamed-font-family-sf-pro);

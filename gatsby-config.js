@@ -21,6 +21,19 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-preload-fonts`,
     {
+      resolve: `gatsby-plugin-styled-components`,
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Dongle`,
+          `Poppins`
+        ],
+        display: 'block'
+      }
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Smoovey`,
