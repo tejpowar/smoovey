@@ -1,6 +1,7 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { Link } from "gatsby";
 
 import { Image } from "react-bootstrap"
 
@@ -16,11 +17,13 @@ const IndexPage = () => (
               <span className="messageBoldHeading underline">Compliant,</span>{" "}
             </h1>
             <h1 className="messageLightHeading">for good </h1>
+
             <p className="desktop-p">
               Manage your property certificates in one place and get notified
               when it’s time to renew. It’s easy, secure, and completely free.
             </p>
-            <button type="button" className="buttonSmall">
+            <Link to="https://app.smoovey.com/signup">
+              <button type="button" className="buttonSmall">
               Get Started
               <span className="arrow">
                 <svg
@@ -39,6 +42,7 @@ const IndexPage = () => (
                 </svg>
               </span>
             </button>
+            </Link>
           </div>
         </div>
         <div className="col-12 col-md-6">

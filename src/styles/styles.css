@@ -271,6 +271,8 @@
     opacity: 1;
     width: 150px;
     height: 55px;
+    z-index: 1;
+    position: relative;
 }
 
 .buttonLong {
