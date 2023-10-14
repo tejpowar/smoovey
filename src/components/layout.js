@@ -8,6 +8,7 @@
 import * as React from "react"
 import Helmet from 'react-helmet';
 import { Script } from "gatsby"
+import "../styles/styles.css"
 
 import Navbar from "./navigation";
 
@@ -16,15 +17,12 @@ const Layout = ({ children }) => {
   return (
     <>
        <Helmet>
-           <link rel="preconnect" href="https://fonts.googleapis.com" />
-           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-           <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap" rel="stylesheet" />
-           <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&display=swap" rel="stylesheet" />
-           <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet" />
+           {/*<link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=block" rel="stylesheet" />*/}
+           {/*<link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&display=block" rel="stylesheet" />*/}
+           {/*<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=block" rel="stylesheet" />*/}
        </Helmet>
       <Navbar />
-      <div className="container-fluid"
-      >
+      <div className="container-fluid">
         <main>{children}</main>
       </div>
     </>
