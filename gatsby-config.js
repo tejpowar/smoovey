@@ -29,15 +29,9 @@ module.exports = {
         fonts: [
           `Dongle`,
           `Poppins`
-
-          // `source dongle\:300,400,400i,700`,
-          // `source Poppins\:300,400,400i,700`,
         ],
         display: 'block'
       }
-//https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=block
-      // https://fonts.googleapis.com/css?family=Source+dongle:300,400,400i,700|Source+Poppins:300,400,400i,700&display=block
-
     },
     {
       resolve: `gatsby-plugin-manifest`,

@@ -16,11 +16,7 @@ import Navbar from "./navigation";
 const Layout = ({ children }) => {
   return (
     <>
-       <Helmet>
-           {/*<link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=block" rel="stylesheet" />*/}
-           {/*<link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&display=block" rel="stylesheet" />*/}
-           {/*<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=block" rel="stylesheet" />*/}
-       </Helmet>
+      <Helmet />
       <Navbar />
       <div className="container-fluid">
         <main>{children}</main>
